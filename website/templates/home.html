@@ -2,11 +2,44 @@
 
 {% block content %}
 
-<div class="col-mid-6 offset-md-3">
+
 
     {% if user.is_authenticated %}
-
-    <h1>Hello World</h1>
+        {% if records %}
+            {% for record in records%}
+            <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Last Name</th>
+                    <th scope="col">First Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Phone</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">City</th> 
+                    <th scope="col">State</th> 
+                    <th scope="col">ZipCode</th>
+                    <th scope="col">Date Created</th>
+                </thead>
+                {% for record in records%}
+                <tbody>
+                  <tr>
+                    <td>{{record.id}}</td>
+                    <td>{{record.last_name}}</td>
+                    <td>{{record.first_name}}</td>
+                    <td>{{record.email}}</td>
+                    <td>{{record.phone}}</td>
+                    <td>{{record.address}}</td>
+                    <td>{{record.city}}</td>
+                    <td>{{record.state}}</td>
+                    <td>{{record.zipcode}}</td>
+                    <td>{{record.created_at}}</td>
+                  </tr>                 
+                </tbody>
+                {%endfor%}
+              </table>
+            {% endfor %}
+        {% endif %}
     {% else %}
     <h1>Log In</h1>
     <br/>
@@ -26,8 +59,6 @@
     </form>
 
 
-
-</div>
 
 
 {% endif %}
