@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Customer Record</h1>
+  <div class="row mb-3">
+    <label for="colFormLabel" class="col-sm-2 col-form-label">Last Name</label>
+    <div class="col-sm-10">
+        <input class="form-control" id="disabledInput" type="text" placeholder={{customer_record.last_name}} disabled>
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="colFormLabel" class="col-sm-2 col-form-label">First Name</label>
+    <div class="col-sm-10">
+        <input class="form-control" id="disabledInput" type="text" placeholder={{customer_record.first_name}} disabled>
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="colFormLabel" class="col-sm-2 col-form-label">Last Name</label>
+    <div class="col-sm-10">
+        <input class="form-control" id="disabledInput" type="text" placeholder={{customer_record.email}} disabled>
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-10">
+        <input class="form-control" id="disabledInput" type="text" placeholder={{customer_record.last_name}} disabled>
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="colFormLabel" class="col-sm-2 col-form-label">Phone</label>
+    <div class="col-sm-10">
+        <input class="form-control" id="disabledInput" type="text" placeholder={{customer_record.email}} disabled>
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="colFormLabel" class="col-sm-2 col-form-label">Address</label>
+    <div class="col-sm-10">
+        <input class="form-control" id="disabledInput" type="text" placeholder={{customer_record.address}} disabled>
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="colFormLabel" class="col-sm-2 col-form-label">City</label>
+    <div class="col-sm-10">
+        <input class="form-control" id="disabledInput" type="text" placeholder={{customer_record.city}} disabled>
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="colFormLabel" class="col-sm-2 col-form-label">State</label>
+    <div class="col-sm-10">
+        <input class="form-control" id="disabledInput" type="text" placeholder={{customer_record.state}} disabled>
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="colFormLabel" class="col-sm-2 col-form-label">ZipCode</label>
+    <div class="col-sm-10">
+        <input class="form-control" id="disabledInput" type="text" placeholder={{customer_record.zipcode}} disabled>
+    </div>
+  </div><br/><br/>
+
+  <a href="{%url 'home' %}" class = "btn btn-secondary">Back</a>
+  <a href="{%url 'home' %}" class = "btn btn-danger">Delete</a>
+
+{% endblock %}
