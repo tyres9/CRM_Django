@@ -1,0 +1,102 @@
+[
+  {
+    "first_name": "Sarah",
+    "last_name": "Johnson",
+    "email": "sarah.johnson@email.com",
+    "phone": "(555) 234-9876",
+    "address": "123 Maple Street",
+    "city": "Springfield",
+    "state": "IL",
+    "zipcode": "62704"
+  },
+  {
+    "first_name": "Michael",
+    "last_name": "Lee",
+    "email": "michael.lee@email.com",
+    "phone": "(555) 876-1234",
+    "address": "456 Oak Avenue",
+    "city": "Austin",
+    "state": "TX",
+    "zipcode": "73301"
+  },
+  {
+    "first_name": "Jessica",
+    "last_name": "Kim",
+    "email": "j.kim@email.com",
+    "phone": "(555) 342-1987",
+    "address": "789 Pine Lane",
+    "city": "Seattle",
+    "state": "WA",
+    "zipcode": "98101"
+  },
+  {
+    "first_name": "David",
+    "last_name": "Martinez",
+    "email": "dmartinez@email.com",
+    "phone": "(555) 983-7765",
+    "address": "321 Birch Road",
+    "city": "Miami",
+    "state": "FL",
+    "zipcode": "33101"
+  },
+  {
+    "first_name": "Emily",
+    "last_name": "Chen",
+    "email": "emily.chen@email.com",
+    "phone": "(555) 223-9988",
+    "address": "654 Cedar Drive",
+    "city": "San Francisco",
+    "state": "CA",
+    "zipcode": "94102"
+  },
+  {
+    "first_name": "Robert",
+    "last_name": "Thompson",
+    "email": "robt@email.com",
+    "phone": "(555) 431-8876",
+    "address": "987 Elm Boulevard",
+    "city": "Denver",
+    "state": "CO",
+    "zipcode": "80202"
+  },
+  {
+    "first_name": "Linda",
+    "last_name": "Nguyen",
+    "email": "linda.nguyen@email.com",
+    "phone": "(555) 657-3321",
+    "address": "246 Willow Circle",
+    "city": "Portland",
+    "state": "OR",
+    "zipcode": "97201"
+  },
+  {
+    "first_name": "James",
+    "last_name": "Patel",
+    "email": "james.patel@email.com",
+    "phone": "(555) 109-2244",
+    "address": "135 Spruce Court",
+    "city": "Chicago",
+    "state": "IL",
+    "zipcode": "60601"
+  },
+  {
+    "first_name": "Karen",
+    "last_name": "Robinson",
+    "email": "karen.r@email.com",
+    "phone": "(555) 776-8899",
+    "address": "864 Aspen Terrace",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zipcode": "85001"
+  },
+  {
+    "first_name": "Daniel",
+    "last_name": "Walker",
+    "email": "daniel.w@email.com",
+    "phone": "(555) 312-5551",
+    "address": "753 Poplar Street",
+    "city": "Atlanta",
+    "state": "GA",
+    "zipcode": "30301"
+  }
+]
